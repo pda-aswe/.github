@@ -1,3 +1,7 @@
+# Allgemein
+- Alle Services und Use-Cases sollten in einen eigenständigen Repo erstellt werden. Dadurch wird die Wiederverwendbarkeit erhöht.
+- Zum Testen eines Services/Use-Cases muss lokal nur der Broker laufen. Dafür muss nur `docker run -it -p 1883:1883 ghcr.io/pda-aswe/broker` ausgeführt werden. Jedoch muss zuvor noch ein Personal Access Token für Github erstellt ist, wie weiter unten zu finden ist.
+
 ## Template
 Dieses Repo sollte als Grundlage verwendet werden, um weitere Services oder Use-Cases zu erstellen. Weitere Infos im Repo.
 
@@ -6,7 +10,6 @@ Dieses Repo ist für den Start der Dockercontainer und der Audio Eingabe und Aus
 
 ## Verbindungsprobleme mit Github Desktop
 Falls Github Desktop nicht funktioniert: https://github.com/desktop/desktop/issues/13226#issuecomment-1031096170
-
 
 ## Benötigt, um automatisch erstellte Dockerimages herunterzuladen:
 1. Personal Access Token erstellen im eigenen Profil
