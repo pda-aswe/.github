@@ -17,3 +17,6 @@ Falls Github Desktop nicht funktioniert: https://github.com/desktop/desktop/issu
   - Dort dann einen neuen Token(classic) erstellen. Dieser braucht nur die Berechtigung: read:packages
 2. Im Docker Repo anmelden
   In einer Kommandozeile `docker login ghcr.io -u <Gitub Benutzername> --password <Token von Github>` ausführen
+
+# Topics
+Eine Liste aller Topics zum Datenaustausch sind in folgender Datei zu finden: (Definierte Topics)[https://github.com/pda-aswe/.github/blob/main/Topics.md]
