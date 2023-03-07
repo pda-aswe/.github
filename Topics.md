@@ -30,7 +30,9 @@ Im Allgemeinen haben die Use-Cases keine eigenen Topics. Sie arbeitet nämlich h
 - `news/<Publisher-ID>/article`: Enthält einen Nachrichtenartikel. Artikel sollte Titel, Kurzbeschreibung und ausführlichen Artikel enthalten.
 - `req/news/<Anzahl der Artikel>`: Anfrage für eine bestimmte Anzahl von Artikel. Jeder Artikel sollte einzeln mit dem Topic `news/article` versendet werden.
 
-### Car-Api
+### Location/Bluetooth-Api
+- `location/current`: Enthält die aktuelle GPS Koordinate
+- `req/location/current`: Anfrage für die aktuelle GPS Koordinate. Antwort mit dem Topic `location/current`.
 - `car/connected`: Enthält den Status, ob eine Verbindung zum Auto vorhanden ist.
 - `req/car/connected`: Anfrage ob, eine Verbindung zum Auto vorhanden ist. Antwort mit dem Topic `car/connected`.
 
