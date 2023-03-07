@@ -16,7 +16,7 @@ Im Allgemeinen haben die Use-Cases keine eigenen Topics. Sie arbeitet nämlich h
 - `req/weather/<Datum>/<Uhrzeit>`: Anfrage für das Wetter zu einer bestimmten Uhrzeit. Antwort mit dem Topic `weather/<Tag>/<Uhrzeit>`
 - `weather/<Datum>/<Uhrzeit>`: Gibt das Wetter für eine bestimmte Uhrzeit bekannt.
 
-### Maps-Api
+### Verhkehrs-Api
 - `rideTime/<Latitude>/<longitude>`: Gibt die Fahrzeit zur GPS-Koordinate an. Angabe der Fahrzeit zu fuß, mit Auto, Fahrrad oder öffentlichen Verkehrsmitteln.
 - `req/rideTime/<Latitude>/<longitude>`: Anfrage für die Berechnung der Fahrtzeit. Antwort mit dem Topic `rideTime/<Latitude>/<longitude>`
 
