@@ -1,6 +1,7 @@
 # Allgemein
 - Alle Services und Use-Cases sollten in einen eigenständigen Repo erstellt werden. Dadurch wird die Wiederverwendbarkeit erhöht.
 - Zum Testen eines Services/Use-Cases muss lokal nur der Broker laufen. Dafür muss nur `docker run -it -p 1883:1883 ghcr.io/pda-aswe/broker` ausgeführt werden. Jedoch muss zuvor noch ein Personal Access Token für Github erstellt ist, wie weiter unten zu finden ist.
+- Schön wäre es, wenn für jedes Issue ein eigener Branch geöffnet wird der dann nach einen Pull-Request mit main gemerged wird
 
 ## Template
 Dieses Repo sollte als Grundlage verwendet werden, um weitere Services oder Use-Cases zu erstellen. Weitere Infos im Repo.
