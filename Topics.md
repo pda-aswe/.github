@@ -27,7 +27,7 @@ Im Allgemeinen haben die Use-Cases keine eigenen Topics. Sie arbeitet nämlich h
 - `appointment/<Datum der Termine>`: Alle Termine von diesen Tag werden hiermit versendet. 
 
 ### News-Apis
-- `news/article`: Enthält einen Nachrichtenartikel. Artikel sollte Titel, Kurzbeschreibung und ausführlichen Artikel enthalten.
+- `news/<Publisher-ID>/article`: Enthält einen Nachrichtenartikel. Artikel sollte Titel, Kurzbeschreibung und ausführlichen Artikel enthalten.
 - `req/news/<Anzahl der Artikel>`: Anfrage für eine bestimmte Anzahl von Artikel. Jeder Artikel sollte einzeln mit dem Topic `news/article` versendet werden.
 
 ### Car-Api
