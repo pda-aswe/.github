@@ -36,17 +36,11 @@ Im Allgemeinen haben die Use-Cases keine eigenen Topics. Sie arbeitet nämlich h
 - `car/connected`: Enthält den Status, ob eine Verbindung zum Auto vorhanden ist.
 - `req/car/connected`: Anfrage ob, eine Verbindung zum Auto vorhanden ist. Antwort mit dem Topic `car/connected`.
 
-### Bundesliga-Api
-- `sport/next`: Ausgabe des nächsten Spiels des hinterlegten Vereins. Angabe der Sportart sollte enthalten sein.
-- `req/sport/next`: Anfrage für den nächsten Spieltermin. Versenden mit dem Topic `sport/next`.
-- `sport/result`: Ausgabe des letzten Spielergebnisses.
-- `req/sport/result`: Anfrage für das letzte Spielergebniss bzw. aktuelle Ergebnis. Versenden mit dem Topic `sport/result`.
-
-### Football-Api
-- `sport/next`: Ausgabe des nächsten Spiels des hinterlegten Vereins. Angabe der Sportart sollte enthalten sein.
-- `req/sport/next`: Anfrage für den nächsten Spieltermin. Versenden mit dem Topic `sport/next`.
-- `sport/result`: Ausgabe des letzten Spielergebnisses.
-- `req/sport/result`: Anfrage für das letzte Spielergebniss bzw. aktuelle Ergebnis. Versenden mit dem Topic `sport/result`.
+### Sport-Apis
+- `sport/<Sportart>/next`: Ausgabe des nächsten Spiels des hinterlegten Vereins. Angabe der Sportart sollte enthalten sein.
+- `req/sport/<Sportart>/next`: Anfrage für den nächsten Spieltermin. Versenden mit dem Topic `sport/next`.
+- `sport/<Sportart>/result`: Ausgabe des letzten Spielergebnisses.
+- `req/sport/<Sportart>/result`: Anfrage für das letzte Spielergebniss bzw. aktuelle Ergebnis. Versenden mit dem Topic `sport/result`.
 
 ### Preisvergleich-Api
 - `price/current`: Ausgabe des aktuellen Artikelpreis.
