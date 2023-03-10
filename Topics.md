@@ -3,7 +3,7 @@
 Im Allgemeinen haben die Use-Cases keine eigenen Topics. Sie arbeitet nämlich hauptsächlich mit den Topics von TTS & SST und den verwendeten Services.
 
 ## Präferenzen
-- `pref/<Name der Präferenz>`: Dadurch wird die Präferenz die im Topic angegeben wird an alle Teilnehmer verschickt. Der Name der Präferenz ist wie ein Pfad aufgebaut und kann aus der p[references.json-Datei](https://github.com/pda-aswe/main/blob/main/preferences.json) im Mainprojekt ausgelesen werden.
+- `pref/<Name der Präferenz>`: Dadurch wird die Präferenz die im Topic angegeben wird an alle Teilnehmer verschickt. Der Name der Präferenz ist wie ein Pfad aufgebaut und kann aus der [preferences.json-Datei](https://github.com/pda-aswe/main/blob/main/preferences.json) im Mainprojekt ausgelesen werden.
 - `req/pref/all` oder `req/pref/<Name der Präferenz>`: Damit wird eine Präferenz oder alle Präferenzen angefordert. Die angeforderte Präferenz wird mit dem Topic pref/* zurückgeschickt.
 
 ## TTS / STT
