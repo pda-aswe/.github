@@ -47,4 +47,4 @@ Im Allgemeinen haben die Use-Cases keine eigenen Topics. Sie arbeitet nämlich h
 - `req/price`: Anfrage für einen Artikelpreis. Versenden mit dem Topic `price/current`.
 
 ### E-Mail-Api
-- `mail/create`: Erstellt eine E-Mail die automatisch verschickt wird. Der Betreff und der Text werden innerhalb der Nachricht festgelegt. Format muss durch Entwickler noch definiert werden.
+- `mail/send`: Erstellt eine E-Mail die automatisch verschickt wird. Der Betreff und der Text werden innerhalb der Nachricht festgelegt. Format muss durch Entwickler noch definiert werden.
