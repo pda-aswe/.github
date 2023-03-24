@@ -17,8 +17,8 @@ Im Allgemeinen haben die Use-Cases keine eigenen Topics. Sie arbeitet nämlich h
 - `weather/<Datum>/<Uhrzeit>`: Gibt das Wetter für eine bestimmte Uhrzeit bekannt.
 
 ### Verhkehrs-Api
-- `rideTime/<Latitude>/<longitude>`: Gibt die Fahrzeit zur GPS-Koordinate an. Angabe der Fahrzeit zu fuß, mit Auto, Fahrrad oder öffentlichen Verkehrsmitteln.
-- `req/rideTime/<Latitude>/<longitude>`: Anfrage für die Berechnung der Fahrtzeit. Antwort mit dem Topic `rideTime/<Latitude>/<longitude>`
+- `rideTime`: Gibt die Fahrzeit zur GPS-Koordinate an. Angabe der Fahrzeit zu fuß, mit Auto, Fahrrad oder öffentlichen Verkehrsmitteln.
+- `req/rideTime`: Anfrage für die Berechnung der Fahrtzeit. Antwort mit dem Topic `rideTime`
 
 ### Kalender-Api
 - `appointment/create`: Erstellt einen Termin im Kalender. Datenformat durch Entwickler noch zu definieren.
