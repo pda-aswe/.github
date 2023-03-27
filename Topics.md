@@ -13,7 +13,7 @@ Im Allgemeinen haben die Use-Cases keine eigenen Topics. Sie arbeitet nämlich h
 ### Wetter-Api
 - `weather/now`: Enthält das aktuelle Wetter.
 - `req/weather/now`: Damit wird das aktuelle Wetter abgefragt. Antwort mit dem Topic `weather/now`.
-- `req/weather/<Datum>/<Uhrzeit>`: Anfrage für das Wetter zu einer bestimmten Uhrzeit. Antwort mit dem Topic `weather/<Tag>/<Uhrzeit>`
+- `req/weather/<Datum>/<Uhrzeit>`: Anfrage für das Wetter zu einer bestimmten Uhrzeit. Antwort mit dem Topic `weather/<Datum>/<Uhrzeit>`
 - `weather/<Datum>/<Uhrzeit>`: Gibt das Wetter für eine bestimmte Uhrzeit bekannt.
 
 ### Verhkehrs-Api
