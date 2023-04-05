@@ -21,10 +21,13 @@ Im Allgemeinen haben die Use-Cases keine eigenen Topics. Sie arbeitet nämlich h
 - `req/rideTime`: Anfrage für die Berechnung der Fahrtzeit. Antwort mit dem Topic `rideTime`
 
 ### Kalender-Api
-- `appointment/create`: Erstellt einen Termin im Kalender. Datenformat durch Entwickler noch zu definieren.
-- `appointment/now`: Gibt den aktuellen Termin aus.
-- `req/appointment/<Datum des Termins>`: Damit werden alle Termine für einen Tag angefordert. Termine des Tags unter `appointment/<Datum der Termine>` zurückschicken.
-- `appointment/<Datum der Termine>`: Alle Termine von diesen Tag werden hiermit versendet. 
+- `appointment/next`: Gibt den nächstmöglichen Termin aus. Aufruf durch `req/appointment/next`
+- `req/appointment/next`: Anfordern des nächsten Termins
+- `appointment/create`: Erstellt einen Termin im Kalender.
+- `appointment/delete`: Löscht einen gewissen Termin im Kalender.
+- `appointment/update`: Verändert einen Termin im Kalender.
+- `req/appointment/range`: Damit werden alle Termine für einen bestimmten Zeitraum angefordert. Termine des Tags unter `appointment/range` zurückschicken.
+- `appointment/range`: Alle Termine von einen angeforderten Zeitraum werden hiermit versendet. 
 
 ### News-Apis
 - `news/<Publisher-ID>/article`: Enthält einen Nachrichtenartikel. Artikel sollte Titel, Kurzbeschreibung und ausführlichen Artikel enthalten.
