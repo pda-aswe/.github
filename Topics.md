@@ -45,9 +45,9 @@ Im Allgemeinen haben die Use-Cases keine eigenen Topics. Sie arbeitet nämlich h
 - `sport/<Sportart>/result`: Ausgabe des letzten Spielergebnisses.
 - `req/sport/<Sportart>/result`: Anfrage für das letzte Spielergebniss bzw. aktuelle Ergebnis. Versenden mit dem Topic `sport/result`.
 
-### Preisvergleich/Aktien-Api
-- `price/current`: Ausgabe des aktuellen Artikelpreis.
-- `req/price`: Anfrage für einen Artikelpreis. Versenden mit dem Topic `price/current`.
+### Aktien-Api
+- `price/current`: Ausgabe des aktuellen Aktienpreis.
+- `req/price`: Anfrage für einen Anktienpreis. Versenden mit dem Topic `price/current`.
 
 ### E-Mail-Api
 - `mail/send`: Erstellt eine E-Mail die automatisch verschickt wird. Der Betreff und der Text werden innerhalb der Nachricht festgelegt. Format muss durch Entwickler noch definiert werden.
